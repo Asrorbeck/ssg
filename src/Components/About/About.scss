@@ -1,0 +1,81 @@
+.about {
+  margin-bottom: 100px;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__body {
+    line-height: 25px;
+    max-width: 500px;
+  }
+  &__header {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__link {
+    color: #64ffda;
+  }
+  &__subheader {
+    font-size: 24px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #fce38a 0%, #f38181 51%, #eaffd0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+  &__subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+    max-width: 600px;
+  }
+  &__wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1e1e1e; /* Inner background color */
+    padding-left: 93px;
+    border: 1px solid transparent; /* Transparent border for the gradient effect */
+    border-radius: 20px; /* Adjust the radius as needed */
+    background: linear-gradient(to right, #1e1e1e, #1e1e1e),
+      /* Inner solid background */
+        linear-gradient(90deg, #00ffff 0%, #b490ca 48%, #ffb997 100%); /* Gradient border */
+    background-clip: padding-box, border-box; /* Clip the backgrounds correctly */
+    background-origin: padding-box, border-box; /* Define the background positioning */
+  }
+}
+
+@media (max-width: 1080px) {
+  .about {
+    &__body {
+      text-align: center;
+    }
+    &__header {
+      display: none;
+    }
+    &__image {
+      display: none;
+    }
+    &__subheader {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    &__subtitle {
+      display: none;
+    }
+    &__wrapper {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      padding: 30px 10px 80px 10px;
+    }
+  }
+}

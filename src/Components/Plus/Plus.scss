@@ -1,0 +1,67 @@
+.plus {
+  margin-bottom: 100px;
+  &__container {
+    background-image: url("../../images/plus-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  &__item {
+    margin-bottom: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    &::before {
+      display: inline-block;
+      content: "";
+      width: 24px;
+      height: 24px;
+      flex-shrink: 0;
+      background-image: url("../../images/tick.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  }
+  &__list {
+  }
+  &__title {
+    font-size: 36px;
+    text-align: center;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 780px) {
+  .plus {
+    &__container {
+      background: none;
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: #1e1e1e;
+    }
+    &__item {
+    }
+    &__list {
+    }
+    &__title {
+      font-size: 24px;
+    }
+    &__wrapper {
+    }
+
+    &__list2 {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "title": "Unleashing",
+    "title2": "Digital",
+    "titleDec": "Excellency",
+    "body": "Empowering businesses with innovative digital solutions and exceptional design",
+    "button": "Explore now"
+  },
+  "header": {
+    "languages": ["Eng", "Rus", "Uzb"]
+  },
+  "about": {
+    "title": "Who We Are?",
+    "subtitle": "Working with the wrong team can turn your project into a disaster. The best way is to entrust it to reliable hands.",
+    "ourStory": "Our Story",
+    "body": "Welcome to Smart Solutions, your trusted partner in creating innovative digital solutions. We are a dynamic team of passionate developers, designers, and tech enthusiasts dedicated to transforming your ideas into reality. \n\n Founded on the principles of innovation, quality, and customer satisfaction, Smart Solutions has grown from a small team of passionate tech enthusiasts to a leading provider of cutting-edge technology solutions. Our journey began with a simple yet powerful vision: to empower businesses by harnessing the power of technology.",
+    "learnMore": "Learn more"
+  }
+}

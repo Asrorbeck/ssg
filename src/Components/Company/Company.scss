@@ -1,0 +1,39 @@
+.company {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  &__image {
+    height: auto; /* keep original height to maintain aspect ratio */
+    width: 100%; /* Adjust the width to fill the container */
+    max-width: 138px;
+  }
+  &__item {
+    display: flex;
+    justify-content: center; /* center align images */
+    align-items: center;
+  }
+  &__list {
+    display: flex;
+    flex: none;
+    gap: 50px; /* Adjust the gap based on the image sizes */
+    padding-right: 50px;
+    justify-content: flex-start;
+  }
+  &__wrapper {
+    display: flex;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent,
+      black,
+      transparent
+    );
+    mask-image: linear-gradient(to right, transparent, black, transparent);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .company {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}

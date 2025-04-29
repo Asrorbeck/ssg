@@ -1,0 +1,127 @@
+.faq {
+  margin-bottom: 100px;
+  &__title {
+    font-size: 48px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__dec {
+    background: linear-gradient(90deg, #fce38a 0%, #f38181 51%, #eaffd0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+  }
+
+  &__icon {
+    color: #64ffda;
+    max-width: 36px;
+    height: 36px;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid #64ffda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__item {
+    border-radius: 6px;
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 1px solid #2c2a2e;
+
+    &--active {
+      padding-bottom: 20px;
+    }
+  }
+
+  &__question {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 400;
+    outline: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__answer {
+    font-size: 16px;
+    color: #fff;
+    line-height: 25px;
+  }
+
+  &__btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__btn {
+    color: #1e1e1e;
+    background: none;
+    padding: 21px 26px;
+    border: 1px solid #fff;
+    background-color: #64ffda;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+      background-color: transparent;
+      color: #64ffda;
+      border: 1px solid #64ffda;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  /* For screens smaller than 900px */
+  .faq {
+    &__title {
+      font-size: 24px;
+      margin-bottom: 36px;
+    }
+
+    &__icon {
+      max-width: 36px;
+      width: 100%;
+    }
+
+    &__btn {
+      font-size: 16px;
+      padding: 11px;
+    }
+  }
+}

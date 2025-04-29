@@ -1,0 +1,107 @@
+.service {
+  margin-bottom: 100px;
+  &__btn {
+    background: none;
+    padding: 17px 23px;
+    border-radius: 16px;
+    background-color: #64ffda;
+    border: 2px solid #fff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: transparent;
+      border: 2px solid #64ffda;
+      color: #64ffda;
+    }
+  }
+  &__dec {
+    background: linear-gradient(90deg, #fce38a 0%, #f38181 51%, #eaffd0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  &__header {
+    font-size: 48px;
+    text-align: center;
+  }
+  &__item {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1e1e;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    position: relative;
+    &:hover {
+      border: 1px solid transparent;
+      border-radius: 20px; /* Adjust the radius as needed */
+      background: linear-gradient(to right, #1e1e1e, #1e1e1e),
+        /* Inner solid background */
+          linear-gradient(90deg, #00ffff 0%, #b490ca 48%, #ffb997 100%); /* Gradient border */
+      background-clip: padding-box, border-box; /* Clip the backgrounds correctly */
+      background-origin: padding-box, border-box;
+      scale: 1.05;
+    }
+  }
+  &__item-body {
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  &__item-header {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  &__number {
+    font-size: 48px;
+    margin-bottom: 32px;
+  }
+  &__subheader {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  &__btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  .service {
+    &__header {
+      font-size: 24px;
+    }
+    &__item {
+      width: 100%;
+    }
+    &__item-body {
+      display: none;
+    }
+    &__list {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    &__subheader {
+      display: none;
+    }
+  }
+}

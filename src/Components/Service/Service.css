@@ -1,0 +1,101 @@
+.service {
+  margin-bottom: 100px;
+}
+.service__btn {
+  background: none;
+  padding: 17px 23px;
+  border-radius: 16px;
+  background-color: #64ffda;
+  border: 2px solid #fff;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.service__btn:hover {
+  background-color: transparent;
+  border: 2px solid #64ffda;
+  color: #64ffda;
+}
+.service__dec {
+  background: linear-gradient(90deg, #fce38a 0%, #f38181 51%, #eaffd0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.service__header {
+  font-size: 48px;
+  text-align: center;
+}
+.service__item {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e1e1e;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  position: relative;
+}
+.service__item:hover {
+  border: 1px solid transparent;
+  border-radius: 20px; /* Adjust the radius as needed */
+  background: linear-gradient(to right, #1e1e1e, #1e1e1e), linear-gradient(90deg, #00ffff 0%, #b490ca 48%, #ffb997 100%); /* Gradient border */
+  background-clip: padding-box, border-box; /* Clip the backgrounds correctly */
+  background-origin: padding-box, border-box;
+  scale: 1.05;
+}
+.service__item-body {
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+}
+.service__item-header {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.service__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.service__number {
+  font-size: 48px;
+  margin-bottom: 32px;
+}
+.service__subheader {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.service__btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+@media (max-width: 900px) {
+  .service__header {
+    font-size: 24px;
+  }
+  .service__item {
+    width: 100%;
+  }
+  .service__item-body {
+    display: none;
+  }
+  .service__list {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .service__subheader {
+    display: none;
+  }
+}/*# sourceMappingURL=Service.css.map */

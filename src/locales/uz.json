@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "title": "Raqamli",
+    "title2": "mukammallikni",
+    "titleDec": "ochish",
+    "body": "Innovatsion raqamli echimlar va ajoyib dizayn bilan biznesni kuchaytirish",
+    "button": "Batafsil"
+  },
+  "header": {
+    "languages": ["Eng", "Rus", "Uzb"]
+  },
+  "about": {
+    "title": "Biz kimmiz?",
+    "subtitle": "Noto‘g‘ri jamoa bilan ishlash loyihangizni falokatga aylantirishi mumkin. Eng yaxshi yechim – ishonchli qo‘llarga topshirish.",
+    "ourStory": "Bizning hikoyamiz",
+    "body": "Smart Solutions ga xush kelibsiz! Biz innovatsion raqamli echimlarni yaratishda ishonchli hamkoringizmiz. Biz sizning g‘oyalaringizni haqiqatga aylantirishga bag‘ishlangan, tajribali dasturchilar, dizaynerlar va texnologiya ishqibozlaridan tashkil topgan jamoamiz. \n\n Innovatsiya, sifat va mijozlar ehtiyojini qondirish tamoyillariga asoslangan holda, Smart Solutions kichik jamoadan zamonaviy texnologik echimlarni yetkazib beruvchi yetakchi kompaniyaga aylandi. Bizning safarimiz oddiy, lekin kuchli bir g‘oya bilan boshlandi: biznesni texnologiya kuchi bilan rivojlantirish.",
+    "learnMore": "Batafsil ma’lumot"
+  }
+}

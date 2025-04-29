@@ -1,0 +1,28 @@
+.privacy__container {
+  margin-top: 30px;
+  line-height: 30px;
+  font-size: 18px;
+}
+.privacy__item-list {
+  list-style-type: disc;
+  margin-left: 15px;
+}
+.privacy__list {
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+.privacy__subtitle {
+  font-weight: bold;
+}
+.privacy__tite {
+  font-size: 48px;
+  padding-top: 123px;
+  padding-bottom: 123px;
+  text-align: center;
+  background-color: #1e1e1e;
+  border-radius: 26px;
+  margin-bottom: 100px;
+}
+.privacy__item-body--footer {
+  font-weight: bold;
+}/*# sourceMappingURL=Privacy.css.map */

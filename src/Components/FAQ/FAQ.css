@@ -1,0 +1,113 @@
+.faq {
+  margin-bottom: 100px;
+}
+.faq__title {
+  font-size: 48px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.faq__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.faq__dec {
+  background: linear-gradient(90deg, #fce38a 0%, #f38181 51%, #eaffd0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+.faq__list {
+  list-style: none;
+  padding: 0;
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.faq__icon {
+  color: #64ffda;
+  max-width: 36px;
+  height: 36px;
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid #64ffda;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faq__item {
+  border-radius: 6px;
+  width: 100%;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 1px solid #2c2a2e;
+}
+.faq__item--active {
+  padding-bottom: 20px;
+}
+.faq__question {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  outline: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.faq__answer {
+  font-size: 16px;
+  color: #fff;
+  line-height: 25px;
+}
+.faq__btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faq__btn {
+  color: #1e1e1e;
+  background: none;
+  padding: 21px 26px;
+  border: 1px solid #fff;
+  background-color: #64ffda;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 500;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.faq__btn:hover {
+  background-color: transparent;
+  color: #64ffda;
+  border: 1px solid #64ffda;
+}
+
+@media screen and (max-width: 900px) {
+  /* For screens smaller than 900px */
+  .faq__title {
+    font-size: 24px;
+    margin-bottom: 36px;
+  }
+  .faq__icon {
+    max-width: 36px;
+    width: 100%;
+  }
+  .faq__btn {
+    font-size: 16px;
+    padding: 11px;
+  }
+}/*# sourceMappingURL=FAQ.css.map */

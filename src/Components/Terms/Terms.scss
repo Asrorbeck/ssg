@@ -1,0 +1,30 @@
+.terms {
+  &__container {
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  &__item-list {
+    list-style-type: disc;
+    margin-left: 15px;
+  }
+  &__list {
+    margin-top: 0;
+    margin-bottom: 100px;
+  }
+  &__subtitle {
+    font-weight: bold;
+  }
+  &__tite {
+    font-size: 48px;
+    padding-top: 123px;
+    padding-bottom: 123px;
+    text-align: center;
+    background-color: #1e1e1e;
+    border-radius: 26px;
+    margin-bottom: 100px;
+  }
+  &__item-body--footer {
+    font-weight: bold;
+  }
+}
